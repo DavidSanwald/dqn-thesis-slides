@@ -1,0 +1,4 @@
+darkbrown 604c38
+darkteal 23373b 
+lightbrown EB811B
+lightgreen 14B03D

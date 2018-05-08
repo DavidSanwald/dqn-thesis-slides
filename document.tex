@@ -1,0 +1,40 @@
+% !TEX program = xelatex
+\documentclass[10pt]{beamer}
+\usetheme{metropolis}
+\usepackage{svg}
+\usepackage{appendixnumberbeamer}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
+\title{RL Traffic Signal Control}
+%\subtitle{A modern beamer theme}
+%\date{\today}
+\author{David Sanwald}
+%\institute{Center for modern beamer themes}
+% \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
+\input{commands}
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Table of contents}
+  \setbeamertemplate{section in toc}[sections numbered]
+  \tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{Introduction}
+
+
+\input{./slides/rlbasics.tex}
+\input{./slides/fadqn.tex}
+
+\end{document}

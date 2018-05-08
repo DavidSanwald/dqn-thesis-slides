@@ -1,0 +1,27 @@
+INFO: latexindent.pl version 3.4.1, 2018-01-18, a script to indent .tex files
+      latexindent.pl lives here: /usr/local/texlive/2017/texmf-dist/scripts/latexindent/
+      Tue May  8 15:43:35 2018
+      Filename: /Users/davidsanwald/Work/thesismetropolis/slides/
+INFO: Processing switches:
+      -y|--yaml: YAML settings specified via command line
+INFO: Directory for backup files and indent.log: /Users/davidsanwald/Work/thesismetropolis
+INFO: Perl modules are being loaded from the following directories:
+      /usr/local/Cellar/perl/5.26.1/lib/perl5/5.26.1/FindBin.pm
+      /usr/local/Cellar/perl/5.26.1/lib/perl5/site_perl/5.26.1/YAML/Tiny.pm
+      /usr/local/Cellar/perl/5.26.1/lib/perl5/5.26.1/File/Copy.pm
+      /usr/local/Cellar/perl/5.26.1/lib/perl5/5.26.1/File/Basename.pm
+      /usr/local/Cellar/perl/5.26.1/lib/perl5/5.26.1/Getopt/Long.pm
+      /usr/local/Cellar/perl/5.26.1/lib/perl5/site_perl/5.26.1/File/HomeDir.pm
+      /usr/local/Cellar/perl/5.26.1/lib/perl5/site_perl/5.26.1/darwin-thread-multi-2level/Unicode/GCString.pm
+      /usr/local/Cellar/perl/5.26.1/lib/perl5/site_perl/5.26.1/Log/Log4perl.pm
+INFO: Latex Indent perl modules are being loaded from, for example:
+      /usr/local/texlive/2017/texmf-dist/scripts/latexindent/LatexIndent/Document.pm
+INFO: YAML settings read: defaultSettings.yaml
+      Reading defaultSettings.yaml from /usr/local/texlive/2017/texmf-dist/scripts/latexindent/defaultSettings.yaml
+INFO: YAML settings read: indentconfig.yaml or .indentconfig.yaml
+      Home directory is /Users/davidsanwald (didn't find either indentconfig.yaml or .indentconfig.yaml)
+      To specify user settings you would put indentconfig.yaml here: /Users/davidsanwald/indentconfig.yaml
+      Alternatively, you can use the hidden file .indentconfig.yaml as: /Users/davidsanwald/.indentconfig.yaml
+INFO: YAML settings read: -y switch
+      Updating masterSettings with "defaultIndent: '    '"
+FATAL: The file /Users/davidsanwald/Work/thesismetropolis/slides/ exists , but the extension does not correspond to any given in fileExtensionPreference; consinder updating fileExtensionPreference.
