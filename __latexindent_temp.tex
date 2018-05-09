@@ -1,78 +1,42 @@
-% Hier benutzerdefinierte Kommandos einfügen. Einige vordefinierte Kommandos sind unten zu finden.
+% !TEX program = xelatex
+\documentclass[10pt]{beamer}
+\usetheme{metropolis}
+\usepackage{svg}
+\usepackage{appendixnumberbeamer}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{xspace}
+\usepackage{tabularx}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
 
-% Erstellt den diag-Operator 
-\DeclareMathOperator{\diag}{diag}
-\DeclareMathOperator*{\argmax}{argmax}
-% Erstellt eine partielle Ableitung (oben und unten ein \partial)
-\newcommand{\pfrac}[2]{\frac{\partial #1}{\partial #2}}
-% "Totale" Ableitung
-\newcommand{\tdfrac}[2]{\frac{\mathrm{d} #1}{\mathrm{d} #2}}
-% Differentiale am Integralende
-\renewcommand{\d}{\,\mathrm{d}}
-% "Partial"-Zeichen
-\newcommand{\p}{\partial}
-% Fette Symbole (auch griechische)
-\newcommand{\bs}[1]{\boldsymbol{#1}}
-% Betrag
-\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
-% Norm
-\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
-\DeclareMathOperator{\E}{\mathbb{E}}
-\DeclareMathOperator{\LL}{\mathcal{L}}
-% Divergenz
-\DeclareMathOperator{\divv}{div}
-% Gradient
-\DeclareMathOperator{\grad}{grad}
-% Rotation
-\DeclareMathOperator{\rot}{rot}
-% Cofaktor
-\DeclareMathOperator{\cof}{Cof}
-% Spur
-\DeclareMathOperator{\Spur}{Sp}
-% Sprungklammer
-\newcommand{\jump}[1]{\left \llbracket #1 \right \rrbracket}
-% Physikalische Komponenten
-\newcommand{\phy}[1]{{\langle #1 \rangle}}
-% Inverse eines Symbols, mit angepasster virtueller Höhe,
-% damit Indizes passen (z. B. \inverse{\sigma}^{ij} )
-\newcommand{\inverse}[1]{\stackrel{-1}{#1}\!\!\vphantom{#1}}
-% Repariert kaputte Einrückungen, z. B. nach aligns
-\newcommand{\fixIndent}{ \\[-\parskip]}
-% Abkürzungen zum Erstellen von Gleichungen
-\newcommand{\beq}{\begin{equation}}
-\newcommand{\eeq}{\end{equation}}
-\newcommand{\beqq}{\begin{equation*}}
-\newcommand{\eeqq}{\end{equation*}}
-% Formelzeichen mit untergesetzter Formel (oder Zeichen), mit Indexhöhenanpassung.
-\newcommand{\sU}[2]{\underset{#2}{#1}\vphantom{#1}}
-% Wie oben, ignoriert aber beim Satz die Breite der Formel
-\newcommand{\sUs}[2]{\smash{\underset{#2}{#1}\vphantom{#1}}}
-\newcommand{\e}[1]{{\mathbb E}\left[ #1 \right]}
+\title{RL Traffic Signal Control}
+%\subtitle{A modern beamer theme}
+%\date{\today}
+\author{David Sanwald}
+%\institute{Center for modern beamer themes}
+% \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
+\input{commands}
+\begin{document}
 
-% Neue Referenzbefehle über varioref (kein fancyref, da dies keine Abkürzungen vorsieht)
-\newcommand{\charef}[1]{Kap.\,\vref*{#1}}
-\newcommand{\secref}[1]{Abschn.\,\vref*{#1}}
-\newcommand{\ssecref}[1]{Unterabschn.\,\vref*{#1}}
-\newcommand{\veqref}[1]{Gl.\,\eqref{#1}\vpageref{#1}}
-\newcommand{\figref}[1]{Abb.\,\vref*{#1}}
-\newcommand{\sfigref}[2]{Abb.\,\ref{#1}\subref{#2}\vpageref{#1}}
-\newcommand{\tabref}[1]{Tab.\,\vref*{#1}}
-\newcommand{\lstref}[1]{Lst.\,\vref*{#1}}
-% Ohne Seitenangabe
-\newcommand{\neqref}[1]{Gl.\,\eqref{#1}}
-\newcommand{\ncharef}[1]{Kap.\,\ref*{#1}}
-\newcommand{\nsecref}[1]{Abschn.\,\ref*{#1}}
-\newcommand{\nssecref}[1]{Unterabschn.\,\ref*{#1}}
-\newcommand{\nfigref}[1]{Abb.\,\ref*{#1}}
-\newcommand{\nsfigref}[2]{Abb.\,\ref{#1}\subref{#2}}
-\newcommand{\ntabref}[1]{Tab.\,\ref*{#1}}
-\newcommand{\nlstref}[1]{Lst.\,\ref*{#1}}
-\newcommand{\twochildren}{child{node{\null}}}
+\maketitle
 
-%algpseudocode
+\begin{frame}{Table of contents}
+  \setbeamertemplate{section in toc}[sections numbered]
+  \tableofcontents[hideallsubsections]
+\end{frame}
 
-\algblockdefx[Foreach]{Foreach}{EndForeach}[1]{\textbf{foreach} #1 \textbf{do}}{\textbf{end foreach}}
+\section{Introduction}
 
 
-% Anwendung z. B. mit: ...siehe \charef{cha:01}  -> ... siehe Kap. 3 auf S. 2
-% Unterabbildungen z. B. mit: ... siehe \sfigref{fig:01}{sfig:01:a} -> ... siehe Abb. 3.2(a)
+\input{./slides/rlbasics.tex}
+\input{./slides/fadqn.tex}
+\input{./slides/tlc.tex}
+
+\end{document}

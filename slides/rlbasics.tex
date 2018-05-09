@@ -123,7 +123,7 @@ text width=8em, text centered, rounded corners, minimum height=4em]
 Off Policy learning 
       \begin{block}{Q-learning}
         \begin{equation*}
-            Q(S_t,A_t)\gets Q(S_t,A_t)+\alpha[R_{t+1}+ \gamma \max_a Q(s_{t+1},a)-Q(S_t,A_t))]
+            Q(S_t,A_t)\gets Q(S_t,A_t)+\alpha[\underbrace{\underbrace{R_{t+1}+ \gamma \max_a Q(s_{t+1},a)}_{\text{target}}-\underbrace{Q(S_t,A_t)}_{\text{prediction}})}_{\text{TD-Error}}]
         \end{equation*}
       \end{block}
 
@@ -135,7 +135,25 @@ On Policy learning
       \end{block}
 
 \end{frame}
-
+\begin{frame}{Backup Diagrams}
+  \begin{figure}
+  \includegraphics[width=\textwidth]{qlearningsarsagrey}
+  \caption{backup diagram for Q-learning and Sarsa}
+  \end{figure}
+\end{frame}
+\begin{frame}{Q-learning}
+      \begin{algorithmic}[0]
+        \State Initialize $Q(s, a)$ arbitrarily
+        \State Initialize  $S$
+        \Repeat
+        \State Choose $A$ from $S$ using policy derived from $Q$
+        \State Take action $A$ observe $R,\,S'$
+        \State Choose $A'$ from $S'$ using policy derived from $Q$
+        \State $Q(S,\,A) \gets Q(SA)+\alpha[R+\gamma\max_{a} Q(S',\,a)-Q(S\,A)]$
+        \State $S\gets S'$
+        \Until $S$ is terminal
+    \end{algorithmic}
+  \end{frame}
 \begin{frame}[standout]
   Demo
 \end{frame}

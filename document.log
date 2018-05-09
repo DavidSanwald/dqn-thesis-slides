@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.2.8)  8 MAY 2018 15:43
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.2.8)  9 MAY 2018 12:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1537,32 +1537,49 @@ File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
 ))) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(./commands.tex)
-(/Users/davidsanwald/Library/texmf/tex/latex/metropolis/pgfplotsthemetol.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen329
+\extrarowheight=\dimen330
+\NC@list=\toks56
+\extratabsurround=\skip80
+\backup@length=\skip81
+)
+\TX@col@width=\dimen331
+\TX@old@table=\dimen332
+\TX@old@col=\dimen333
+\TX@target=\dimen334
+\TX@delta=\dimen335
+\TX@cols=\count365
+\TX@ftn=\toks57
+) (./commands.tex) (/Users/davidsanwald/Library/texmf/tex/latex/metropolis/pgfp
+lotsthemetol.sty
 Package: pgfplotsthemetol 2017/01/23 PGFplots colors based on Paul Tol's SRON t
 echnical note
-)
-(./document.aux)
+) (./document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1600,7 +1617,7 @@ LaTeX Font Info:    ... okay on input line 25.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box104
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 26.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1608,70 +1625,70 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count365
+\c@section@level=\count366
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
 (./document.out) (./document.out)
 \@outlinefile=\write5
 \openout5 = `document.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 25.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 25.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 26.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 25.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/FiraSansLight(0)/bx/n on input line
- 25.
+ 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/FiraSansLight(0)/bx/n on input line
- 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 25.
+ 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/FiraSansLight(0)/m/n on input line 
-25.
+26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/FiraSansLight(0)/m/n on input line
- 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 25.
+ 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/FiraSansLight(0)/m/it on input line
- 25.
+ 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/FiraSansLight(0)/m/it on input lin
-e 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 25.
+e 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 25.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 25.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/bx/n on
- input line 25.
+ input line 26.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/bx/it 
-on input line 25.
+on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmr/bx/n on input line 25.
+(Font)                  OT1/cmss/bx/n --> TU/lmr/bx/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/FiraSansLight(0)/bx/n --> TU/FiraSansLight(0)/bx/n o
-n input line 25.
+n input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/bx/n on
- input line 25.
+ input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/bx/it 
-on input line 25.
+on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/FiraMono(0)/m/n --> TU/FiraMono(0)/bx/n on input lin
-e 25.
+e 26.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1701,7 +1718,7 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.9).
 
 (./document.nav)
-Overfull \vbox (13.79993pt too high) detected at line 27
+Overfull \vbox (13.79993pt too high) detected at line 28
  []
 
 [1
@@ -1709,12 +1726,12 @@ Overfull \vbox (13.79993pt too high) detected at line 27
 ] (./document.toc) [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1767,22 +1784,25 @@ Overfull \vbox (7.20943pt too high) detected at line 78
 
 ] [13
 
-] [14
+]
+File: images/qlearningsarsagrey.pdf Graphic file (type pdf)
+<use images/qlearningsarsagrey.pdf>
+ [14
 
-]) (./slides/fadqn.tex [15
+] [15
 
 ] [16
 
-] [17
+]) (./slides/fadqn.tex [17
 
 ] [18
+
+] [19
 
 ]
 File: images/atarigames.png Graphic file (type bmp)
 <images/atarigames.png>
- [19
-
-] [20
+ [20
 
 ]
 [21
@@ -1791,10 +1811,127 @@ File: images/atarigames.png Graphic file (type bmp)
 
 ] [23
 
+] [24
+
 ]
 File: images/dqnarchitecture2.pdf Graphic file (type pdf)
 <use images/dqnarchitecture2.pdf>
- [24
+ [25
+
+] [26
+
+]) (./slides/tlc.tex [27
+
+] [28
+
+]
+File: images/1balls.jpg Graphic file (type bmp)
+<images/1balls.jpg>
+ [29
+
+]
+File: images/2balls.jpg Graphic file (type bmp)
+<images/2balls.jpg>
+ [30
+
+]
+File: images/3balls.jpg Graphic file (type bmp)
+<images/3balls.jpg>
+ [31
+
+]
+File: images/4balls.jpg Graphic file (type bmp)
+<images/4balls.jpg>
+
+[32
+
+]
+File: images/5balls.jpg Graphic file (type bmp)
+<images/5balls.jpg>
+ [33
+
+]
+File: images/allballs.jpg Graphic file (type bmp)
+<images/allballs.jpg>
+ [34
+
+]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSansLight(1)' created for font 'Fira Sans Light' with
+. options [Ligatures=TeX,ItalicFont={Fira Sans Light Italic},BoldFont={Fira
+. Sans},BoldItalicFont={Fira Sans Italic},Numbers={Monospaced}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.: <->"Fira Sans
+. Light/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: <->"Fira Sans
+. Light/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
+. - 'bold' (bx/n) with NFSS spec.: <->"Fira
+. Sans/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Fira
+. Sans/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
+. - 'italic' (m/it) with NFSS spec.: <->"Fira Sans Light
+. Italic/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Fira Sans Light
+. Italic/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
+. - 'bold italic' (bx/it) with NFSS spec.: <->"Fira Sans
+. Italic/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Fira Sans
+. Italic/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
+.................................................
+ [35
+
+]
+File: images/queue.png Graphic file (type bmp)
+<images/queue.png>
+ [36
+
+]
+Overfull \hbox (3.92584pt too wide) in paragraph at lines 84--84
+[]|\TU/FiraSansLight(0)/m/n/10 0.01| 
+ []
+
+
+Overfull \hbox (4.26584pt too wide) in paragraph at lines 84--84
+[]|\TU/FiraSansLight(0)/m/n/10 0.07| 
+ []
+
+
+Overfull \hbox (5.01584pt too wide) in paragraph at lines 84--84
+[]|\TU/FiraSansLight(0)/m/n/10 0.68| 
+ []
+
+File: images/moving.png Graphic file (type bmp)
+<images/moving.png>
+[37
+
+]
+Overfull \hbox (4.26584pt too wide) in paragraph at lines 95--95
+[]|\TU/FiraSansLight(0)/m/n/10 0.07| 
+ []
+
+
+Overfull \hbox (2.56584pt too wide) in paragraph at lines 95--95
+[]|\TU/FiraSansLight(0)/m/n/10 0.16| 
+ []
+
+
+Overfull \hbox (4.76584pt too wide) in paragraph at lines 95--95
+[]|\TU/FiraSansLight(0)/m/n/10 0.05| 
+ []
+
+File: images/inhomo.png Graphic file (type bmp)
+<images/inhomo.png>
+[38
+
+] [39
+
+] [40
+
+] [41
 
 ])
 \tf@nav=\write6
@@ -1806,19 +1943,19 @@ File: images/dqnarchitecture2.pdf Graphic file (type pdf)
 \tf@snm=\write8
 \openout8 = `document.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
  (./document.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 40.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 42.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 45093 strings out of 493005
- 1052269 string characters out of 6134588
- 1290244 words of memory out of 5000000
- 48279 multiletter control sequences out of 15000+600000
- 536624 words of font info for 82 fonts, out of 8000000 for 9000
+ 45324 strings out of 493005
+ 1056484 string characters out of 6134588
+ 1293244 words of memory out of 5000000
+ 48488 multiletter control sequences out of 15000+600000
+ 536632 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,13n,102p,10478b,840s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,18n,102p,10478b,840s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on document.pdf (24 pages).
+Output written on document.pdf (41 pages).

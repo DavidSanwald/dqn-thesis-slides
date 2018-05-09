@@ -1,6 +1,6 @@
 INFO: latexindent.pl version 3.4.1, 2018-01-18, a script to indent .tex files
       latexindent.pl lives here: /usr/local/texlive/2017/texmf-dist/scripts/latexindent/
-      Tue May  8 15:43:35 2018
+      Wed May  9 12:44:25 2018
       Filename: /Users/davidsanwald/Work/thesismetropolis/slides/
 INFO: Processing switches:
       -y|--yaml: YAML settings specified via command line
